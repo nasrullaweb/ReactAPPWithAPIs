@@ -10,7 +10,7 @@ class ToDoItem extends Component {
                         onReset={(event)=>this.props.cancelAction(event)} >
                         <input type="text" className="taskInputVal" placeholder="Add to do item" 
                             onChange={(event) => this.props.handleInputChange(event)} 
-                            value={this.props.inputText.text} 
+                            value={this.props.inputText.task} 
                         />
                         <button>{this.props.upadetText ? 'Update': 'Add'}</button>
                         <button type="reset" className={this.props.upadetText ? 'displayblock' : 'displaynone'} >Cancel</button>

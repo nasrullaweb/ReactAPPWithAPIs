@@ -5,7 +5,7 @@ class ToDoList extends React.Component {
         const itemsList = this.props.items;
         const items = itemsList.map((item) => 
             <li key={item.id}>
-                {item.text}
+                {item.task}
                 <span className="remove" onClick={(id) =>this.props.deleteTask(item.id)}>Remove</span>
                 <span className="update" onClick={(id) =>this.props.updateTask(item.id)}>EDIT</span>
             </li>

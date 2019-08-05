@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render todo form 1`] = `
+<div
+  className="todoListMain"
+>
+  <div
+    className="header"
+  >
+    <form>
+      <input
+        type="text"
+        value="the value"
+      />
+      <button>
+        Add
+      </button>
+      <button>
+        Cancel
+      </button>
+    </form>
+  </div>
+</div>
+`;

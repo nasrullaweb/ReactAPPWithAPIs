@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render todo List 1`] = `
+<ul
+  className="theList"
+>
+  <li>
+    first list
+    <span
+      className="remove"
+      onClick={[Function]}
+    >
+      Remove
+    </span>
+    <span
+      className="update"
+      onClick={[Function]}
+    >
+      EDIT
+    </span>
+  </li>
+  <li>
+    Second list
+    <span
+      className="remove"
+      onClick={[Function]}
+    >
+      Remove
+    </span>
+    <span
+      className="update"
+      onClick={[Function]}
+    >
+      EDIT
+    </span>
+  </li>
+</ul>
+`;
